@@ -1,0 +1,11 @@
+duckdb>=1.1
+pandas>=2.2
+pyarrow>=16
+pyyaml>=6.0
+plotly>=5.22
+streamlit>=1.38
+certifi>=2024.2
+ipykernel>=6.29
+nbformat>=5.10
+# optional, for running notebooks/05_databricks_pyspark.ipynb locally instead of on Databricks:
+# pyspark>=3.5

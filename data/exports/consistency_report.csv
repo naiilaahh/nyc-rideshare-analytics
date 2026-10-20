@@ -1,0 +1,533 @@
+check,month,company,kpi,reference,channel,ok
+A warehouse vs B tableau extract,2024-10-01,Lyft,trips,4882969.0,4882969.0,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,gross_bookings,154381842.1002057,154381842.09999993,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,platform_margin,26591832.319988936,26591832.319999993,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,avg_fare,26.08224515497403,26.08224515497168,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,fare_per_mile,5.056007371139043,5.0560073711385325,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,avg_trip_miles,5.158664384838127,5.1586643848381835,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,take_rate,0.20880895500560814,0.20880895500571375,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,avg_wait_min,5.491532970381387,5.491532970381387,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,pickup_within_5min_rate,0.537290665568446,0.537290665568446,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,shared_match_rate,,,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,wav_fulfillment_rate,0.9998571836618109,0.9998571836618109,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,driver_earnings_per_engaged_hour,62.9676206303174,62.96762063030431,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,tip_rate,0.054817903148229,0.05481790314823479,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,crz_trip_share,0.36858415443554937,0.36858415443554937,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,airport_trip_share,0.09462255443358333,0.09462255443358333,True
+A warehouse vs B tableau extract,2024-10-01,Lyft,cbd_fee_revenue,0.0,0.0,True
+A warehouse vs B tableau extract,2024-10-01,Uber,trips,15145313.0,15145313.0,True
+A warehouse vs B tableau extract,2024-10-01,Uber,gross_bookings,498780700.7695894,498780700.76999986,True
+A warehouse vs B tableau extract,2024-10-01,Uber,platform_margin,96789895.50001782,96789895.50000006,True
+A warehouse vs B tableau extract,2024-10-01,Uber,avg_fare,27.40276927154804,27.402769271547033,True
+A warehouse vs B tableau extract,2024-10-01,Uber,fare_per_mile,5.261439603827246,5.261439603826904,True
+A warehouse vs B tableau extract,2024-10-01,Uber,avg_trip_miles,5.208226518767767,5.208226518767915,True
+A warehouse vs B tableau extract,2024-10-01,Uber,take_rate,0.23352677436124403,0.23352677436120972,True
+A warehouse vs B tableau extract,2024-10-01,Uber,avg_wait_min,4.342087233367204,4.342087233367204,True
+A warehouse vs B tableau extract,2024-10-01,Uber,pickup_within_5min_rate,0.7189377198610089,0.7189377198610089,True
+A warehouse vs B tableau extract,2024-10-01,Uber,shared_match_rate,0.5131364529322727,0.5131364529322727,True
+A warehouse vs B tableau extract,2024-10-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2024-10-01,Uber,driver_earnings_per_engaged_hour,64.02599646896121,64.02599646896246,True
+A warehouse vs B tableau extract,2024-10-01,Uber,tip_rate,0.04355709480266757,0.04355709480267875,True
+A warehouse vs B tableau extract,2024-10-01,Uber,crz_trip_share,0.34769284728549354,0.34769284728549354,True
+A warehouse vs B tableau extract,2024-10-01,Uber,airport_trip_share,0.09066956886265738,0.09066956886265738,True
+A warehouse vs B tableau extract,2024-10-01,Uber,cbd_fee_revenue,0.0,0.0,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,trips,4860617.0,4860617.0,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,gross_bookings,147012930.94021174,147012930.93999994,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,platform_margin,28866228.18002382,28866228.180000007,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,avg_fare,25.14944583680024,25.149445836795923,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,fare_per_mile,5.382454544094968,5.38245454409402,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,avg_trip_miles,4.672486433608886,4.672486433608907,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,take_rate,0.2361565864820204,0.23615658648186613,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,avg_wait_min,5.424302763247832,5.424302763247832,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,pickup_within_5min_rate,0.5401678766288738,0.5401678766288738,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,shared_match_rate,,,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,wav_fulfillment_rate,0.9997174143412222,0.9997174143412222,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,driver_earnings_per_engaged_hour,62.52267227423942,62.522672274241245,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,tip_rate,0.052546877168768394,0.05254687716877821,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,crz_trip_share,0.3589104017041458,0.3589104017041458,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,airport_trip_share,0.08664249826719529,0.08664249826719529,True
+A warehouse vs B tableau extract,2024-11-01,Lyft,cbd_fee_revenue,0.0,0.0,True
+A warehouse vs B tableau extract,2024-11-01,Uber,trips,15126916.0,15126916.0,True
+A warehouse vs B tableau extract,2024-11-01,Uber,gross_bookings,488322887.43971074,488322887.4399999,True
+A warehouse vs B tableau extract,2024-11-01,Uber,platform_margin,86972687.95004088,86972687.9500001,True
+A warehouse vs B tableau extract,2024-11-01,Uber,avg_fare,26.833459951134277,26.833459951132404,True
+A warehouse vs B tableau extract,2024-11-01,Uber,fare_per_mile,5.16501366370868,5.1650136637082324,True
+A warehouse vs B tableau extract,2024-11-01,Uber,avg_trip_miles,5.195235036777581,5.195235036777669,True
+A warehouse vs B tableau extract,2024-11-01,Uber,take_rate,0.21434151150228947,0.21434151150220393,True
+A warehouse vs B tableau extract,2024-11-01,Uber,avg_wait_min,4.497075056967339,4.497075056967339,True
+A warehouse vs B tableau extract,2024-11-01,Uber,pickup_within_5min_rate,0.6967182148901296,0.6967182148901296,True
+A warehouse vs B tableau extract,2024-11-01,Uber,shared_match_rate,0.550104017424828,0.550104017424828,True
+A warehouse vs B tableau extract,2024-11-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2024-11-01,Uber,driver_earnings_per_engaged_hour,64.8889954868166,64.88899548681951,True
+A warehouse vs B tableau extract,2024-11-01,Uber,tip_rate,0.04188204304053114,0.04188204304054043,True
+A warehouse vs B tableau extract,2024-11-01,Uber,crz_trip_share,0.33947547537118605,0.33947547537118605,True
+A warehouse vs B tableau extract,2024-11-01,Uber,airport_trip_share,0.08516514536075959,0.08516514536075959,True
+A warehouse vs B tableau extract,2024-11-01,Uber,cbd_fee_revenue,0.0,0.0,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,trips,5137337.0,5137337.0,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,gross_bookings,162572321.4501665,162572321.44999993,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,platform_margin,36271385.00999284,36271385.00999999,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,avg_fare,26.63400503762455,26.634005037620565,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,fare_per_mile,5.749877199951526,5.74987719995069,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,avg_trip_miles,4.6320998016877795,4.632099801687759,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,take_rate,0.2667363173191041,0.2667363173191966,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,avg_wait_min,5.530859211818599,5.530859211818599,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,pickup_within_5min_rate,0.5362740054393965,0.5362740054393965,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,shared_match_rate,,,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,driver_earnings_per_engaged_hour,63.50989373396085,63.50989373394461,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,tip_rate,0.054136824498052794,0.0541368244980617,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,crz_trip_share,0.3469778213887857,0.3469778213887857,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,airport_trip_share,0.09178451793215045,0.09178451793215045,True
+A warehouse vs B tableau extract,2024-12-01,Lyft,cbd_fee_revenue,0.0,0.0,True
+A warehouse vs B tableau extract,2024-12-01,Uber,trips,15931514.0,15931514.0,True
+A warehouse vs B tableau extract,2024-12-01,Uber,gross_bookings,541310456.2394171,541310456.2399999,True
+A warehouse vs B tableau extract,2024-12-01,Uber,platform_margin,98803507.82001525,98803507.82000005,True
+A warehouse vs B tableau extract,2024-12-01,Uber,avg_fare,28.383576309249108,28.383576309248575,True
+A warehouse vs B tableau extract,2024-12-01,Uber,fare_per_mile,5.406143083114012,5.406143083113853,True
+A warehouse vs B tableau extract,2024-12-01,Uber,avg_trip_miles,5.250245114285763,5.250245114285819,True
+A warehouse vs B tableau extract,2024-12-01,Uber,take_rate,0.21858914378094674,0.21858914378091718,True
+A warehouse vs B tableau extract,2024-12-01,Uber,avg_wait_min,5.27363478775027,5.27363478775027,True
+A warehouse vs B tableau extract,2024-12-01,Uber,pickup_within_5min_rate,0.5934804417564293,0.5934804417564293,True
+A warehouse vs B tableau extract,2024-12-01,Uber,shared_match_rate,0.5762795176019585,0.5762795176019585,True
+A warehouse vs B tableau extract,2024-12-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2024-12-01,Uber,driver_earnings_per_engaged_hour,67.50372778031637,67.50372778031817,True
+A warehouse vs B tableau extract,2024-12-01,Uber,tip_rate,0.0436126320098069,0.04361263200981492,True
+A warehouse vs B tableau extract,2024-12-01,Uber,crz_trip_share,0.32544615659252474,0.32544615659252474,True
+A warehouse vs B tableau extract,2024-12-01,Uber,airport_trip_share,0.08701370127158034,0.08701370127158034,True
+A warehouse vs B tableau extract,2024-12-01,Uber,cbd_fee_revenue,0.0,0.0,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,trips,5049211.0,5049211.0,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,gross_bookings,142535733.01021138,142535733.00999993,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,platform_margin,26319757.720014766,26319757.72,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,avg_fare,23.00499769910285,23.004997699103058,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,fare_per_mile,5.094206947239335,5.094206947239442,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,avg_trip_miles,4.515913455689071,4.515913455689015,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,take_rate,0.2272274642080086,0.2272274642078791,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,avg_wait_min,4.691495677401572,4.691495677401572,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,pickup_within_5min_rate,0.6566889117352964,0.6566889117352964,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,shared_match_rate,,,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,driver_earnings_per_engaged_hour,63.51244526812727,63.51244526813783,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,tip_rate,0.050395183200029885,0.05039518320002991,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,crz_trip_share,0.36102709908538183,0.36102709908538183,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,airport_trip_share,0.07530661721207531,0.07530661721207531,True
+A warehouse vs B tableau extract,2025-01-01,Lyft,cbd_fee_revenue,2492829.0,2492829.0,True
+A warehouse vs B tableau extract,2025-01-01,Uber,trips,15356455.0,15356455.0,True
+A warehouse vs B tableau extract,2025-01-01,Uber,gross_bookings,462503532.8500912,462503532.8499999,True
+A warehouse vs B tableau extract,2025-01-01,Uber,platform_margin,88458564.12003183,88458564.12,True
+A warehouse vs B tableau extract,2025-01-01,Uber,avg_fare,24.699052388231298,24.699052388230957,True
+A warehouse vs B tableau extract,2025-01-01,Uber,fare_per_mile,4.981132113086166,4.981132113086092,True
+A warehouse vs B tableau extract,2025-01-01,Uber,avg_trip_miles,4.958521843526948,4.9585218435269525,True
+A warehouse vs B tableau extract,2025-01-01,Uber,take_rate,0.23331447299408759,0.23331447299400687,True
+A warehouse vs B tableau extract,2025-01-01,Uber,avg_wait_min,4.555443625558306,4.555443625558306,True
+A warehouse vs B tableau extract,2025-01-01,Uber,pickup_within_5min_rate,0.6940698560890659,0.6940698560890659,True
+A warehouse vs B tableau extract,2025-01-01,Uber,shared_match_rate,0.5636519553980068,0.5636519553980068,True
+A warehouse vs B tableau extract,2025-01-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2025-01-01,Uber,driver_earnings_per_engaged_hour,65.24577938887813,65.24577938888383,True
+A warehouse vs B tableau extract,2025-01-01,Uber,tip_rate,0.04062989151841243,0.04062989151841327,True
+A warehouse vs B tableau extract,2025-01-01,Uber,crz_trip_share,0.32301960315710887,0.32301960315710887,True
+A warehouse vs B tableau extract,2025-01-01,Uber,airport_trip_share,0.07801852706239819,0.07801852706239819,True
+A warehouse vs B tableau extract,2025-01-01,Uber,cbd_fee_revenue,6957496.5,6957496.5,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,trips,4919838.0,4919838.0,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,gross_bookings,140679155.1402038,140679155.13999993,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,platform_margin,24711226.61999786,24711226.61999999,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,avg_fare,23.344715492154876,23.344715492154968,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,fare_per_mile,5.013259769534868,5.013259769534883,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,avg_trip_miles,4.656594025711299,4.656594025711305,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,take_rate,0.21516940342100893,0.2151694034210266,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,avg_wait_min,4.812853110965652,4.812853110965652,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,pickup_within_5min_rate,0.6362170892537495,0.6362170892537495,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,shared_match_rate,,,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,driver_earnings_per_engaged_hour,62.44704556373006,62.447045563729,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,tip_rate,0.047504383809127415,0.047504383809127575,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,crz_trip_share,0.3523815215053829,0.3523815215053829,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,airport_trip_share,0.07466932854293169,0.07466932854293169,True
+A warehouse vs B tableau extract,2025-02-01,Lyft,cbd_fee_revenue,2689458.0,2689458.0,True
+A warehouse vs B tableau extract,2025-02-01,Uber,trips,14419623.0,14419623.0,True
+A warehouse vs B tableau extract,2025-02-01,Uber,gross_bookings,448777571.50980115,448777571.50999993,True
+A warehouse vs B tableau extract,2025-02-01,Uber,platform_margin,88371177.42001194,88371177.42000002,True
+A warehouse vs B tableau extract,2025-02-01,Uber,avg_fare,25.527209316764825,25.52720931676437,True
+A warehouse vs B tableau extract,2025-02-01,Uber,fare_per_mile,5.120606137115439,5.120606137115366,True
+A warehouse vs B tableau extract,2025-02-01,Uber,avg_trip_miles,4.9851928918604385,4.985192891860422,True
+A warehouse vs B tableau extract,2025-02-01,Uber,take_rate,0.24015048398984037,0.24015048398981226,True
+A warehouse vs B tableau extract,2025-02-01,Uber,avg_wait_min,4.709942463078396,4.709942463078396,True
+A warehouse vs B tableau extract,2025-02-01,Uber,pickup_within_5min_rate,0.6685387883442325,0.6685387883442325,True
+A warehouse vs B tableau extract,2025-02-01,Uber,shared_match_rate,0.5371961268327875,0.5371961268327875,True
+A warehouse vs B tableau extract,2025-02-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2025-02-01,Uber,driver_earnings_per_engaged_hour,64.74076884732233,64.74076884732384,True
+A warehouse vs B tableau extract,2025-02-01,Uber,tip_rate,0.03866544133704232,0.03866544133704707,True
+A warehouse vs B tableau extract,2025-02-01,Uber,crz_trip_share,0.33230549786218405,0.33230549786218405,True
+A warehouse vs B tableau extract,2025-02-01,Uber,airport_trip_share,0.08009654621344817,0.08009654621344817,True
+A warehouse vs B tableau extract,2025-02-01,Uber,cbd_fee_revenue,7548792.0,7548792.0,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,trips,5989698.0,5989698.0,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,gross_bookings,181775233.64008135,181775233.63999993,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,platform_margin,32345179.119995832,32345179.120000005,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,avg_fare,25.15601946255721,25.15601946255751,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,fare_per_mile,5.141668865335944,5.141668865335975,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,avg_trip_miles,4.892578678520866,4.892578678520894,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,take_rate,0.2169489130056903,0.21694891300571573,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,avg_wait_min,4.954879338295966,4.954879338295966,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,pickup_within_5min_rate,0.6159850242190911,0.6159850242190911,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,shared_match_rate,,,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,wav_fulfillment_rate,0.999819440264821,0.999819440264821,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,driver_earnings_per_engaged_hour,64.56947076844773,64.56947076844651,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,tip_rate,0.04595358806302901,0.04595358806302895,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,crz_trip_share,0.34132522207296595,0.34132522207296595,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,airport_trip_share,0.08916543037729115,0.08916543037729115,True
+A warehouse vs B tableau extract,2025-03-01,Lyft,cbd_fee_revenue,3156637.5,3156637.5,True
+A warehouse vs B tableau extract,2025-03-01,Uber,trips,14547181.0,14547181.0,True
+A warehouse vs B tableau extract,2025-03-01,Uber,gross_bookings,504364858.2197232,504364858.21999985,True
+A warehouse vs B tableau extract,2025-03-01,Uber,platform_margin,117439746.7099675,117439746.71000004,True
+A warehouse vs B tableau extract,2025-03-01,Uber,avg_fare,28.7258940465383,28.72589404653814,True
+A warehouse vs B tableau extract,2025-03-01,Uber,fare_per_mile,5.654655536168475,5.654655536168389,True
+A warehouse vs B tableau extract,2025-03-01,Uber,avg_trip_miles,5.080043136633326,5.080043136633375,True
+A warehouse vs B tableau extract,2025-03-01,Uber,take_rate,0.28110655573013615,0.2811065557302156,True
+A warehouse vs B tableau extract,2025-03-01,Uber,avg_wait_min,4.775145361039796,4.775145361039796,True
+A warehouse vs B tableau extract,2025-03-01,Uber,pickup_within_5min_rate,0.6634417132231248,0.6634417132231248,True
+A warehouse vs B tableau extract,2025-03-01,Uber,shared_match_rate,0.5228859254583235,0.5228859254583235,True
+A warehouse vs B tableau extract,2025-03-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,2025-03-01,Uber,driver_earnings_per_engaged_hour,68.21212668744428,68.21212668743718,True
+A warehouse vs B tableau extract,2025-03-01,Uber,tip_rate,0.03839358633899128,0.03839358633899603,True
+A warehouse vs B tableau extract,2025-03-01,Uber,crz_trip_share,0.3223346846375253,0.3223346846375253,True
+A warehouse vs B tableau extract,2025-03-01,Uber,airport_trip_share,0.08493205659570745,0.08493205659570745,True
+A warehouse vs B tableau extract,2025-03-01,Uber,cbd_fee_revenue,7389822.0,7389822.0,True
+A warehouse vs B tableau extract,ALL,Lyft,trips,30839670.0,30839670.0,True
+A warehouse vs B tableau extract,ALL,Lyft,gross_bookings,928957216.2810805,928957216.2799995,True
+A warehouse vs B tableau extract,ALL,Lyft,platform_margin,175105608.97001398,175105608.97000003,True
+A warehouse vs B tableau extract,ALL,Lyft,avg_fare,24.905293853945214,24.905293853943604,True
+A warehouse vs B tableau extract,ALL,Lyft,fare_per_mile,5.23520202756857,5.235202027568223,True
+A warehouse vs B tableau extract,ALL,Lyft,avg_trip_miles,4.757274642467274,4.757274642467281,True
+A warehouse vs B tableau extract,ALL,Lyft,take_rate,0.22879682642911006,0.22879682642910662,True
+A warehouse vs B tableau extract,ALL,Lyft,avg_wait_min,5.143760768355584,5.143760768355584,True
+A warehouse vs B tableau extract,ALL,Lyft,pickup_within_5min_rate,0.5882249423032819,0.5882249423032819,True
+A warehouse vs B tableau extract,ALL,Lyft,shared_match_rate,,,True
+A warehouse vs B tableau extract,ALL,Lyft,wav_fulfillment_rate,0.999897726110524,0.999897726110524,True
+A warehouse vs B tableau extract,ALL,Lyft,driver_earnings_per_engaged_hour,63.29876885178619,63.29876885178267,True
+A warehouse vs B tableau extract,ALL,Lyft,tip_rate,0.05084053362010273,0.050840533620106654,True
+A warehouse vs B tableau extract,ALL,Lyft,crz_trip_share,0.35434393428982863,0.35434393428982863,True
+A warehouse vs B tableau extract,ALL,Lyft,airport_trip_share,0.08548655027761322,0.08548655027761322,True
+A warehouse vs B tableau extract,ALL,Lyft,cbd_fee_revenue,8338924.5,8338924.5,True
+A warehouse vs B tableau extract,ALL,Uber,trips,90527002.0,90527002.0,True
+A warehouse vs B tableau extract,ALL,Uber,gross_bookings,2944060007.0283327,2944060007.0299993,True
+A warehouse vs B tableau extract,ALL,Uber,platform_margin,576835579.5200851,576835579.52,True
+A warehouse vs B tableau extract,ALL,Uber,avg_fare,26.93541695195323,26.935416951952494,True
+A warehouse vs B tableau extract,ALL,Uber,fare_per_mile,5.266017180045299,5.266017180045099,True
+A warehouse vs B tableau extract,ALL,Uber,avg_trip_miles,5.11495045136209,5.114950451362145,True
+A warehouse vs B tableau extract,ALL,Uber,take_rate,0.23668539453871754,0.23668539453868906,True
+A warehouse vs B tableau extract,ALL,Uber,avg_wait_min,4.6960762806226155,4.6960762806226155,True
+A warehouse vs B tableau extract,ALL,Uber,pickup_within_5min_rate,0.6720123484074145,0.6720123484074145,True
+A warehouse vs B tableau extract,ALL,Uber,shared_match_rate,0.5467312971393546,0.5467312971393546,True
+A warehouse vs B tableau extract,ALL,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse vs B tableau extract,ALL,Uber,driver_earnings_per_engaged_hour,65.77234610656924,65.77234610657032,True
+A warehouse vs B tableau extract,ALL,Uber,tip_rate,0.0412094133590866,0.041209413359093186,True
+A warehouse vs B tableau extract,ALL,Uber,crz_trip_share,0.331693310687567,0.331693310687567,True
+A warehouse vs B tableau extract,ALL,Uber,airport_trip_share,0.08435424604031402,0.08435424604031402,True
+A warehouse vs B tableau extract,ALL,Uber,cbd_fee_revenue,21896110.5,21896110.5,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,trips,4882743.0,4882743.0,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,gross_bookings,154375662.3200006,154375662.32,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,platform_margin,26590852.67,26590852.67,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,avg_fare,26.082277957925687,26.08227795792568,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,fare_per_mile,5.056074862025376,5.056074862025375,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,avg_trip_miles,5.158602012367668,5.158602012367668,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,take_rate,0.2088106649393133,0.20881066493931336,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,avg_wait_min,5.491469586702297,5.491469586702297,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,pickup_within_5min_rate,0.5373000063987114,0.5373000063987114,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,shared_match_rate,,,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,wav_fulfillment_rate,0.9998571836618109,0.9998571836618109,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,driver_earnings_per_engaged_hour,62.96723666814298,62.96723666814297,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,tip_rate,0.05481924171932232,0.0548192417193224,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,crz_trip_share,0.36860060011350176,0.36860060011350176,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,airport_trip_share,0.09462611487026862,0.09462611487026862,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Lyft,cbd_fee_revenue,0.0,0.0,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,trips,15144750.0,15144750.0,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,gross_bookings,498763896.2999999,498763896.29999995,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,platform_margin,96787487.18000114,96787487.18,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,avg_fare,27.402811140580525,27.402811140580468,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,fare_per_mile,5.26149560973117,5.261495609731164,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,avg_trip_miles,5.208179037515275,5.208179037515269,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,take_rate,0.23352925326648055,0.23352925326647833,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,avg_wait_min,4.341945841135851,4.341945841135851,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,pickup_within_5min_rate,0.7189529045464463,0.7189529045464463,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,shared_match_rate,0.5131541443163501,0.5131541443163501,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,driver_earnings_per_engaged_hour,64.02574915680555,64.0257491568056,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,tip_rate,0.04355793372273718,0.04355793372273743,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,crz_trip_share,0.3477051783621387,0.3477051783621387,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,airport_trip_share,0.09067109064197164,0.09067109064197164,True
+A warehouse (known zones) vs C embedded app,2024-10-01,Uber,cbd_fee_revenue,0.0,0.0,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,trips,4860366.0,4860366.0,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,gross_bookings,147006022.92000043,147006022.92,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,platform_margin,28864711.939999774,28864711.939999983,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,avg_fare,25.149408730230565,25.149408730230583,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,fare_per_mile,5.382512776962397,5.382512776962401,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,avg_trip_miles,4.672428988533409,4.672428988533409,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,take_rate,0.23615672629796194,0.23615672629796353,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,avg_wait_min,5.42419482607238,5.42419482607238,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,pickup_within_5min_rate,0.5401816890764379,0.5401816890764379,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,shared_match_rate,,,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,wav_fulfillment_rate,0.9997174143412222,0.9997174143412222,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,driver_earnings_per_engaged_hour,62.52232312227925,62.52232312227917,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,tip_rate,0.05254854986880758,0.052548549868807595,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,crz_trip_share,0.35892831938993897,0.35892831938993897,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,airport_trip_share,0.08664635543907599,0.08664635543907599,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Lyft,cbd_fee_revenue,0.0,0.0,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,trips,15126367.0,15126367.0,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,gross_bookings,488308675.04999983,488308675.04999995,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,platform_margin,86971413.26000017,86971413.25999999,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,avg_fare,26.833611285058364,26.833611285058318,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,fare_per_mile,5.165075308842451,5.165075308842432,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,avg_trip_miles,5.195202331148985,5.195202331148994,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,take_rate,0.21434494316080016,0.21434494316080008,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,avg_wait_min,4.496951956297965,4.496951956297965,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,pickup_within_5min_rate,0.6967321155075493,0.6967321155075493,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,shared_match_rate,0.5501066195788985,0.5501066195788985,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,driver_earnings_per_engaged_hour,64.88885445581829,64.8888544558182,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,tip_rate,0.04188288726516769,0.0418828872651679,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,crz_trip_share,0.33948726749787306,0.33948726749787306,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,airport_trip_share,0.08516698028019551,0.08516698028019551,True
+A warehouse (known zones) vs C embedded app,2024-11-01,Uber,cbd_fee_revenue,0.0,0.0,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,trips,5137128.0,5137128.0,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,gross_bookings,162567245.5300003,162567245.53,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,platform_margin,36270044.39999995,36270044.400000006,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,avg_fare,26.634160298869254,26.634160298869272,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,fare_per_mile,5.749923961638598,5.749923961638608,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,avg_trip_miles,4.6320891331020535,4.632089133102048,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,take_rate,0.26673582272599516,0.26673582272599544,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,avg_wait_min,5.5308155048155525,5.5308155048155525,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,pickup_within_5min_rate,0.5362810353349285,0.5362810353349285,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,shared_match_rate,,,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,driver_earnings_per_engaged_hour,63.509700408097636,63.50970040809765,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,tip_rate,0.054137917992533854,0.05413791799253381,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,crz_trip_share,0.34699174324642096,0.34699174324642096,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,airport_trip_share,0.09178688948377381,0.09178688948377381,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Lyft,cbd_fee_revenue,0.0,0.0,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,trips,15930966.0,15930966.0,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,gross_bookings,541293545.1200008,541293545.12,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,platform_margin,98802098.45999974,98802098.45999998,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,avg_fare,28.38361895371075,28.383618953710773,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,fare_per_mile,5.4062198742317324,5.406219874231749,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,avg_trip_miles,5.250178426704166,5.250178426704154,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,take_rate,0.21859316457326258,0.21859316457326294,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,avg_wait_min,5.273487224220738,5.273487224220738,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,pickup_within_5min_rate,0.5934922681188629,0.5934922681188629,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,shared_match_rate,0.5762767745344957,0.5762767745344957,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,driver_earnings_per_engaged_hour,67.50355759747005,67.50355759747009,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,tip_rate,0.04361300648946773,0.04361300648946785,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,crz_trip_share,0.32545609600823955,0.32545609600823955,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,airport_trip_share,0.08701525067594772,0.08701525067594772,True
+A warehouse (known zones) vs C embedded app,2024-12-01,Uber,cbd_fee_revenue,0.0,0.0,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,trips,5048966.0,5048966.0,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,gross_bookings,142528959.45000055,142528959.45,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,platform_margin,26318315.729999974,26318315.72999999,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,avg_fare,23.004869098737583,23.004869098737593,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,fare_per_mile,5.09426134215833,5.094261342158336,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,avg_trip_miles,4.515839992023438,4.515839992023436,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,take_rate,0.22722729680448805,0.22722729680448808,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,avg_wait_min,4.69138624404201,4.69138624404201,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,pickup_within_5min_rate,0.6567049224097395,0.6567049224097395,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,shared_match_rate,,,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,driver_earnings_per_engaged_hour,63.51207814318508,63.51207814318511,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,tip_rate,0.05039719106660464,0.050397191066604716,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,crz_trip_share,0.36104422172777556,0.36104422172777556,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,airport_trip_share,0.07530809278573078,0.07530809278573078,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Lyft,cbd_fee_revenue,2492826.0,2492826.0,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,trips,15355927.0,15355927.0,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,gross_bookings,462490155.42000073,462490155.41999996,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,platform_margin,88457613.6300003,88457613.63,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,avg_fare,24.69913259252071,24.699132592520687,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,fare_per_mile,4.981200328236396,4.9812003282363895,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,avg_trip_miles,4.958470040345775,4.958470040345777,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,take_rate,0.23331921859753363,0.23331921859753305,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,avg_wait_min,4.5553065717515695,4.5553065717515695,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,pickup_within_5min_rate,0.6940827960763111,0.6940827960763111,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,shared_match_rate,0.5636476348256294,0.5636476348256294,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,driver_earnings_per_engaged_hour,65.24572177245763,65.24572177245763,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,tip_rate,0.04063072747748287,0.04063072747748297,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,crz_trip_share,0.323029993565351,0.323029993565351,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,airport_trip_share,0.07802023283908552,0.07802023283908552,True
+A warehouse (known zones) vs C embedded app,2025-01-01,Uber,cbd_fee_revenue,6957481.5,6957481.5,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,trips,4919601.0,4919601.0,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,gross_bookings,140672347.38000032,140672347.37999997,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,platform_margin,24710030.26999986,24710030.269999996,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,avg_fare,23.34455297093431,23.344552970934345,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,fare_per_mile,5.013341135586396,5.013341135586397,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,avg_trip_miles,4.656486031885354,4.656486031885359,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,take_rate,0.2151708501714896,0.21517085017149043,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,avg_wait_min,4.812767565982793,4.812767565982793,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,pickup_within_5min_rate,0.636231630554253,0.636231630554253,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,shared_match_rate,,,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,driver_earnings_per_engaged_hour,62.44659880840861,62.44659880840864,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,tip_rate,0.04750625082788544,0.04750625082788538,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,crz_trip_share,0.35239788755226287,0.35239788755226287,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,airport_trip_share,0.07467129956270845,0.07467129956270845,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Lyft,cbd_fee_revenue,2689453.5,2689453.5,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,trips,14419151.0,14419151.0,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,gross_bookings,448764322.1600003,448764322.15999997,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,platform_margin,88369546.5899998,88369546.59000003,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,avg_fare,25.527240638359036,25.52724063835907,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,fare_per_mile,5.120657495347273,5.120657495347276,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,avg_trip_miles,4.985149009000031,4.985149009000034,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,take_rate,0.24015360420410184,0.2401536042041022,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,avg_wait_min,4.709818414179435,4.709818414179435,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,pickup_within_5min_rate,0.6685502634423974,0.6685502634423974,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,shared_match_rate,0.537201610461777,0.537201610461777,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,driver_earnings_per_engaged_hour,64.74065234553518,64.74065234553525,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,tip_rate,0.038665970698222515,0.03866597069822255,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,crz_trip_share,0.33231512729147505,0.33231512729147505,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,airport_trip_share,0.08009778106907958,0.08009778106907958,True
+A warehouse (known zones) vs C embedded app,2025-02-01,Uber,cbd_fee_revenue,7548760.5,7548760.5,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,trips,5989392.0,5989392.0,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,gross_bookings,181766691.90000033,181766691.9,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,platform_margin,32343693.599999845,32343693.59999998,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,avg_fare,25.155969491881784,25.155969491881773,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,fare_per_mile,5.141737324683872,5.141737324683876,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,avg_trip_miles,4.89250381794415,4.892503817944144,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,take_rate,0.2169505448946218,0.2169505448946228,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,avg_wait_min,4.954746984471321,4.954746984471321,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,pickup_within_5min_rate,0.6160044614718752,0.6160044614718752,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,shared_match_rate,,,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,wav_fulfillment_rate,0.9998194293968942,0.9998194293968942,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,driver_earnings_per_engaged_hour,64.56909117428728,64.5690911742872,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,tip_rate,0.04595507368751748,0.04595507368751765,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,crz_trip_share,0.34134232656670327,0.34134232656670327,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,airport_trip_share,0.08916814928794108,0.08916814928794108,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Lyft,cbd_fee_revenue,3156634.5,3156634.5,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,trips,14546682.0,14546682.0,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,gross_bookings,504350364.5699998,504350364.56999993,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,platform_margin,117437267.48999959,117437267.49000001,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,avg_fare,28.725989693917246,28.725989693917278,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,fare_per_mile,5.654704334013196,5.654704334013213,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,avg_trip_miles,5.08001621254177,5.08001621254176,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,take_rate,0.2811092145348736,0.28110921453487425,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,avg_wait_min,4.775015738692729,4.775015738692729,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,pickup_within_5min_rate,0.6634538750115085,0.6634538750115085,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,shared_match_rate,0.5228867281000938,0.5228867281000938,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,driver_earnings_per_engaged_hour,68.21206176159296,68.21206176159299,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,tip_rate,0.038394258103957475,0.038394258103957545,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,crz_trip_share,0.32234505435672545,0.32234505435672545,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,airport_trip_share,0.084934007631431,0.084934007631431,True
+A warehouse (known zones) vs C embedded app,2025-03-01,Uber,cbd_fee_revenue,7389805.5,7389805.5,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,trips,30838196.0,30838196.0,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,gross_bookings,928916929.4999902,928916929.5,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,platform_margin,175097648.6100031,175097648.61,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,avg_fare,24.905264495358395,24.90526449535839,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,fare_per_mile,5.2352669361993245,5.235266936199317,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,avg_trip_miles,4.757210052299454,4.7572100522994605,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,take_rate,0.22879765470266036,0.22879765470265634,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,avg_wait_min,5.143669659693214,5.143669659693214,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,pickup_within_5min_rate,0.5882384234793404,0.5882384234793404,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,shared_match_rate,,,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,wav_fulfillment_rate,0.9998977249482943,0.9998977249482943,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,driver_earnings_per_engaged_hour,63.29841645907245,63.29841645907275,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,tip_rate,0.05084210854167165,0.050842108541671704,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,crz_trip_share,0.354360417191719,0.354360417191719,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,airport_trip_share,0.08548920955039004,0.08548920955039004,True
+A warehouse (known zones) vs C embedded app,ALL,Lyft,cbd_fee_revenue,8338914.0,8338914.0,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,trips,90523843.0,90523843.0,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,gross_bookings,2943970958.620016,2943970958.62,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,platform_margin,576825426.6100011,576825426.6100001,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,avg_fare,26.935490338845554,26.935490338845632,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,fare_per_mile,5.2660782164709445,5.26607821647097,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,avg_trip_miles,5.114905102358381,5.114905102358371,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,take_rate,0.23668880816393303,0.23668880816393195,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,avg_wait_min,4.695942493119496,4.695942493119496,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,pickup_within_5min_rate,0.6720252389570289,0.6720252389570289,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,shared_match_rate,0.5467337562482787,0.5467337562482787,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,wav_fulfillment_rate,1.0,1.0,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,driver_earnings_per_engaged_hour,65.77220961248449,65.7722096124848,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,tip_rate,0.04121008864400126,0.04121008864400165,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,crz_trip_share,0.33170404619255944,0.33170404619255944,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,airport_trip_share,0.08435587516981576,0.08435587516981576,True
+A warehouse (known zones) vs C embedded app,ALL,Uber,cbd_fee_revenue,21896047.5,21896047.5,True
+A warehouse vs D independent silver SQL,2024-10-01,Lyft,trips,4882969.0,4882969.0,True
+A warehouse vs D independent silver SQL,2024-10-01,Lyft,take_rate,0.20880895500560814,0.20880895500570848,True
+A warehouse vs D independent silver SQL,2024-10-01,Lyft,avg_wait_min,5.491532970381387,5.491532970381387,True
+A warehouse vs D independent silver SQL,2024-10-01,Lyft,pickup_within_5min_rate,0.537290665568446,0.537290665568446,True
+A warehouse vs D independent silver SQL,2024-10-01,Lyft,driver_earnings_per_engaged_hour,62.9676206303174,62.96762063032679,True
+A warehouse vs D independent silver SQL,2024-10-01,Lyft,gross_bookings,154381842.1002057,154381842.1002534,True
+A warehouse vs D independent silver SQL,2024-10-01,Uber,trips,15145313.0,15145313.0,True
+A warehouse vs D independent silver SQL,2024-10-01,Uber,take_rate,0.23352677436124403,0.23352677436119734,True
+A warehouse vs D independent silver SQL,2024-10-01,Uber,avg_wait_min,4.342087233367204,4.342087233367205,True
+A warehouse vs D independent silver SQL,2024-10-01,Uber,pickup_within_5min_rate,0.7189377198610089,0.7189377198610089,True
+A warehouse vs D independent silver SQL,2024-10-01,Uber,driver_earnings_per_engaged_hour,64.02599646896121,64.02599646895958,True
+A warehouse vs D independent silver SQL,2024-10-01,Uber,gross_bookings,498780700.7695894,498780700.76958716,True
+A warehouse vs D independent silver SQL,2024-11-01,Lyft,trips,4860617.0,4860617.0,True
+A warehouse vs D independent silver SQL,2024-11-01,Lyft,take_rate,0.2361565864820204,0.23615658648184612,True
+A warehouse vs D independent silver SQL,2024-11-01,Lyft,avg_wait_min,5.424302763247832,5.424302763247832,True
+A warehouse vs D independent silver SQL,2024-11-01,Lyft,pickup_within_5min_rate,0.5401678766288738,0.5401678766288738,True
+A warehouse vs D independent silver SQL,2024-11-01,Lyft,driver_earnings_per_engaged_hour,62.52267227423942,62.52267227425378,True
+A warehouse vs D independent silver SQL,2024-11-01,Lyft,gross_bookings,147012930.94021174,147012930.94024125,True
+A warehouse vs D independent silver SQL,2024-11-01,Uber,trips,15126916.0,15126916.0,True
+A warehouse vs D independent silver SQL,2024-11-01,Uber,take_rate,0.21434151150228947,0.2143415115021868,True
+A warehouse vs D independent silver SQL,2024-11-01,Uber,avg_wait_min,4.497075056967339,4.497075056967338,True
+A warehouse vs D independent silver SQL,2024-11-01,Uber,pickup_within_5min_rate,0.6967182148901296,0.6967182148901296,True
+A warehouse vs D independent silver SQL,2024-11-01,Uber,driver_earnings_per_engaged_hour,64.8889954868166,64.88899548681373,True
+A warehouse vs D independent silver SQL,2024-11-01,Uber,gross_bookings,488322887.43971074,488322887.4397288,True
+A warehouse vs D independent silver SQL,2024-12-01,Lyft,trips,5137337.0,5137337.0,True
+A warehouse vs D independent silver SQL,2024-12-01,Lyft,take_rate,0.2667363173191041,0.2667363173191783,True
+A warehouse vs D independent silver SQL,2024-12-01,Lyft,avg_wait_min,5.530859211818599,5.530859211818599,True
+A warehouse vs D independent silver SQL,2024-12-01,Lyft,pickup_within_5min_rate,0.5362740054393965,0.5362740054393965,True
+A warehouse vs D independent silver SQL,2024-12-01,Lyft,driver_earnings_per_engaged_hour,63.50989373396085,63.509893733972596,True
+A warehouse vs D independent silver SQL,2024-12-01,Lyft,gross_bookings,162572321.4501665,162572321.4502396,True
+A warehouse vs D independent silver SQL,2024-12-01,Uber,trips,15931514.0,15931514.0,True
+A warehouse vs D independent silver SQL,2024-12-01,Uber,take_rate,0.21858914378094674,0.21858914378090505,True
+A warehouse vs D independent silver SQL,2024-12-01,Uber,avg_wait_min,5.27363478775027,5.27363478775027,True
+A warehouse vs D independent silver SQL,2024-12-01,Uber,pickup_within_5min_rate,0.5934804417564293,0.5934804417564293,True
+A warehouse vs D independent silver SQL,2024-12-01,Uber,driver_earnings_per_engaged_hour,67.50372778031637,67.50372778031718,True
+A warehouse vs D independent silver SQL,2024-12-01,Uber,gross_bookings,541310456.2394171,541310456.2394027,True
+A warehouse vs D independent silver SQL,2025-01-01,Lyft,trips,5049211.0,5049211.0,True
+A warehouse vs D independent silver SQL,2025-01-01,Lyft,take_rate,0.2272274642080086,0.2272274642078917,True
+A warehouse vs D independent silver SQL,2025-01-01,Lyft,avg_wait_min,4.691495677401572,4.691495677401573,True
+A warehouse vs D independent silver SQL,2025-01-01,Lyft,pickup_within_5min_rate,0.6566889117352964,0.6566889117352964,True
+A warehouse vs D independent silver SQL,2025-01-01,Lyft,driver_earnings_per_engaged_hour,63.51244526812727,63.51244526813673,True
+A warehouse vs D independent silver SQL,2025-01-01,Lyft,gross_bookings,142535733.01021138,142535733.0102395,True
+A warehouse vs D independent silver SQL,2025-01-01,Uber,trips,15356455.0,15356455.0,True
+A warehouse vs D independent silver SQL,2025-01-01,Uber,take_rate,0.23331447299408759,0.23331447299400904,True
+A warehouse vs D independent silver SQL,2025-01-01,Uber,avg_wait_min,4.555443625558306,4.555443625558306,True
+A warehouse vs D independent silver SQL,2025-01-01,Uber,pickup_within_5min_rate,0.6940698560890659,0.6940698560890659,True
+A warehouse vs D independent silver SQL,2025-01-01,Uber,driver_earnings_per_engaged_hour,65.24577938887813,65.24577938887765,True
+A warehouse vs D independent silver SQL,2025-01-01,Uber,gross_bookings,462503532.8500912,462503532.85011184,True
+A warehouse vs D independent silver SQL,2025-02-01,Lyft,trips,4919838.0,4919838.0,True
+A warehouse vs D independent silver SQL,2025-02-01,Lyft,take_rate,0.21516940342100893,0.21516940342102764,True
+A warehouse vs D independent silver SQL,2025-02-01,Lyft,avg_wait_min,4.812853110965652,4.812853110965651,True
+A warehouse vs D independent silver SQL,2025-02-01,Lyft,pickup_within_5min_rate,0.6362170892537495,0.6362170892537495,True
+A warehouse vs D independent silver SQL,2025-02-01,Lyft,driver_earnings_per_engaged_hour,62.44704556373006,62.447045563730576,True
+A warehouse vs D independent silver SQL,2025-02-01,Lyft,gross_bookings,140679155.1402038,140679155.1402324,True
+A warehouse vs D independent silver SQL,2025-02-01,Uber,trips,14419623.0,14419623.0,True
+A warehouse vs D independent silver SQL,2025-02-01,Uber,take_rate,0.24015048398984037,0.24015048398981936,True
+A warehouse vs D independent silver SQL,2025-02-01,Uber,avg_wait_min,4.709942463078396,4.709942463078396,True
+A warehouse vs D independent silver SQL,2025-02-01,Uber,pickup_within_5min_rate,0.6685387883442325,0.6685387883442325,True
+A warehouse vs D independent silver SQL,2025-02-01,Uber,driver_earnings_per_engaged_hour,64.74076884732233,64.74076884732142,True
+A warehouse vs D independent silver SQL,2025-02-01,Uber,gross_bookings,448777571.50980115,448777571.5098209,True
+A warehouse vs D independent silver SQL,2025-03-01,Lyft,trips,5989698.0,5989698.0,True
+A warehouse vs D independent silver SQL,2025-03-01,Lyft,take_rate,0.2169489130056903,0.2169489130057114,True
+A warehouse vs D independent silver SQL,2025-03-01,Lyft,avg_wait_min,4.954879338295966,4.954879338295966,True
+A warehouse vs D independent silver SQL,2025-03-01,Lyft,pickup_within_5min_rate,0.6159850242190911,0.6159850242190911,True
+A warehouse vs D independent silver SQL,2025-03-01,Lyft,driver_earnings_per_engaged_hour,64.56947076844773,64.56947076844745,True
+A warehouse vs D independent silver SQL,2025-03-01,Lyft,gross_bookings,181775233.64008135,181775233.64015955,True
+A warehouse vs D independent silver SQL,2025-03-01,Uber,trips,14547181.0,14547181.0,True
+A warehouse vs D independent silver SQL,2025-03-01,Uber,take_rate,0.28110655573013615,0.2811065557302547,True
+A warehouse vs D independent silver SQL,2025-03-01,Uber,avg_wait_min,4.775145361039796,4.775145361039796,True
+A warehouse vs D independent silver SQL,2025-03-01,Uber,pickup_within_5min_rate,0.6634417132231248,0.6634417132231248,True
+A warehouse vs D independent silver SQL,2025-03-01,Uber,driver_earnings_per_engaged_hour,68.21212668744428,68.21212668744482,True
+A warehouse vs D independent silver SQL,2025-03-01,Uber,gross_bookings,504364858.2197232,504364858.21973896,True
+A warehouse vs D independent silver SQL,ALL,Lyft,trips,30839670.0,30839670.0,True
+A warehouse vs D independent silver SQL,ALL,Lyft,take_rate,0.22879682642911006,0.22879682642934468,True
+A warehouse vs D independent silver SQL,ALL,Lyft,avg_wait_min,5.143760768355584,5.143760768355583,True
+A warehouse vs D independent silver SQL,ALL,Lyft,pickup_within_5min_rate,0.5882249423032819,0.5882249423032819,True
+A warehouse vs D independent silver SQL,ALL,Lyft,driver_earnings_per_engaged_hour,63.29876885178619,63.29876885165811,True
+A warehouse vs D independent silver SQL,ALL,Lyft,gross_bookings,928957216.2810805,928957216.2731334,True
+A warehouse vs D independent silver SQL,ALL,Uber,trips,90527002.0,90527002.0,True
+A warehouse vs D independent silver SQL,ALL,Uber,take_rate,0.23668539453871754,0.23668539453873283,True
+A warehouse vs D independent silver SQL,ALL,Uber,avg_wait_min,4.6960762806226155,4.6960762806226155,True
+A warehouse vs D independent silver SQL,ALL,Uber,pickup_within_5min_rate,0.6720123484074145,0.6720123484074145,True
+A warehouse vs D independent silver SQL,ALL,Uber,driver_earnings_per_engaged_hour,65.77234610656924,65.77234610657227,True
+A warehouse vs D independent silver SQL,ALL,Uber,gross_bookings,2944060007.0283327,2944060007.0166926,True

@@ -1,0 +1,67 @@
+pu_zone_id,zone,borough,is_crz,trips_to_outer_boroughs,pct_charged_cbd_fee
+13,Battery Park City,Manhattan,true,47310,0.880279010779962
+261,World Trade Center,Manhattan,true,58070,0.9340451179610815
+88,Financial District South,Manhattan,true,39451,0.9382271678791412
+246,West Chelsea/Hudson Yards,Manhattan,true,85479,0.9718644345394776
+50,Clinton West,Manhattan,true,49976,0.9728669761485513
+12,Battery Park,Manhattan,true,1003,0.9780658025922233
+4,Alphabet City,Manhattan,true,46486,0.9816073656584778
+87,Financial District North,Manhattan,true,98422,0.9821889414968198
+209,Seaport,Manhattan,true,36535,0.9838511016833174
+158,Meatpacking/West Village West,Manhattan,true,47222,0.9864681716149253
+231,TriBeCa/Civic Center,Manhattan,true,137649,0.9867271102587015
+232,Two Bridges/Seward Park,Manhattan,true,76561,0.9882316061702433
+137,Kips Bay,Manhattan,true,91960,0.9904197477163984
+45,Chinatown,Manhattan,true,49609,0.9909693805559475
+211,SoHo,Manhattan,true,65421,0.9911343452408248
+90,Flatiron,Manhattan,true,75880,0.9915392725355825
+144,Little Italy/NoLiTa,Manhattan,true,102755,0.9915721862683081
+233,UN/Turtle Bay South,Manhattan,true,69652,0.9915723884454144
+229,Sutton Place/Turtle Bay North,Manhattan,true,76528,0.9917023834413548
+234,Union Sq,Manhattan,true,124868,0.9919114585001761
+113,Greenwich Village North,Manhattan,true,73087,0.9924473572591569
+114,Greenwich Village South,Manhattan,true,81815,0.9924585956120516
+249,West Village,Manhattan,true,95994,0.9926349563514386
+125,Hudson Sq,Manhattan,true,43845,0.9927471775573041
+107,Gramercy,Manhattan,true,100851,0.9928706705932514
+161,Midtown Center,Manhattan,true,145629,0.9930439678910107
+68,East Chelsea,Manhattan,true,123467,0.9931398673329715
+162,Midtown East,Manhattan,true,112642,0.9932795937572131
+148,Lower East Side,Manhattan,true,197992,0.9933280132530607
+170,Murray Hill,Manhattan,true,124800,0.9933493589743589
+163,Midtown North,Manhattan,true,97226,0.9935716783576409
+224,Stuy Town/Peter Cooper Village,Manhattan,true,24600,0.993780487804878
+186,Penn Station/Madison Sq West,Manhattan,true,78889,0.9938014171811026
+79,East Village,Manhattan,true,197395,0.9939106866941918
+100,Garment District,Manhattan,true,80798,0.994232530508181
+164,Midtown South,Manhattan,true,146452,0.9944623494387239
+48,Clinton East,Manhattan,true,123805,0.9950002019304551
+230,Times Sq/Theatre District,Manhattan,true,170040,0.9952599388379205
+153,Marble Hill,Manhattan,false,37205,0.001209514850154549
+202,Roosevelt Island,Manhattan,false,21778,0.005280558361649371
+120,Highbridge Park,Manhattan,false,2142,0.0070028011204481795
+127,Inwood,Manhattan,false,99922,0.007535877984828166
+128,Inwood Hill Park,Manhattan,false,7320,0.008333333333333333
+243,Washington Heights North,Manhattan,false,116840,0.01234166381376241
+244,Washington Heights South,Manhattan,false,160556,0.017184035476718405
+42,Central Harlem North,Manhattan,false,184246,0.019783333152415792
+116,Hamilton Heights,Manhattan,false,81226,0.021163174353039667
+194,Randalls Island,Manhattan,false,3676,0.029379760609358
+74,East Harlem North,Manhattan,false,142917,0.029744537038980667
+41,Central Harlem,Manhattan,false,104877,0.031818225158995773
+152,Manhattanville,Manhattan,false,34354,0.03827792978983525
+166,Morningside Heights,Manhattan,false,50070,0.08280407429598562
+75,East Harlem South,Manhattan,false,116133,0.0954336837935815
+24,Bloomingdale,Manhattan,false,15913,0.10689373468233519
+151,Manhattan Valley,Manhattan,false,31867,0.12671415570966832
+238,Upper West Side North,Manhattan,false,53341,0.16512626309967943
+262,Yorkville East,Manhattan,false,46470,0.24170432537120723
+236,Upper East Side North,Manhattan,false,78647,0.26696504634633234
+263,Yorkville West,Manhattan,false,79172,0.271649067852271
+239,Upper West Side South,Manhattan,false,61075,0.3095702005730659
+140,Lenox Hill East,Manhattan,false,100465,0.455422286368387
+43,Central Park,Manhattan,false,11217,0.5308014620665062
+143,Lincoln Square West,Manhattan,false,41526,0.5881616336752877
+141,Lenox Hill West,Manhattan,false,87574,0.5900267202594377
+237,Upper East Side South,Manhattan,false,88644,0.6832047290284734
+142,Lincoln Square East,Manhattan,false,71726,0.731004098932047

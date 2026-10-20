@@ -1,0 +1,42 @@
+zone_id,zone_name_check,is_crz,is_airport
+1,"EWR",false,true
+4,"Alphabet City",true,false
+12,"Battery Park",true,false
+13,"Battery Park City",true,false
+45,"Chinatown",true,false
+48,"Clinton East",true,false
+50,"Clinton West",true,false
+68,"East Chelsea",true,false
+79,"East Village",true,false
+87,"Financial District North",true,false
+88,"Financial District South",true,false
+90,"Flatiron",true,false
+100,"Garment District",true,false
+107,"Gramercy",true,false
+113,"Greenwich Village North",true,false
+114,"Greenwich Village South",true,false
+125,"Hudson Sq",true,false
+132,"JFK",false,true
+137,"Kips Bay",true,false
+138,"LGA",false,true
+144,"Little Italy/NoLiTa",true,false
+148,"Lower East Side",true,false
+158,"Meatpacking/West Village West",true,false
+161,"Midtown Center",true,false
+162,"Midtown East",true,false
+163,"Midtown North",true,false
+164,"Midtown South",true,false
+170,"Murray Hill",true,false
+186,"Penn Station/Madison Sq West",true,false
+209,"Seaport",true,false
+211,"SoHo",true,false
+224,"Stuy Town/Peter Cooper Village",true,false
+229,"Sutton Place/Turtle Bay North",true,false
+230,"Times Sq/Theatre District",true,false
+231,"TriBeCa/Civic Center",true,false
+232,"Two Bridges/Seward Park",true,false
+233,"UN/Turtle Bay South",true,false
+234,"Union Sq",true,false
+246,"West Chelsea/Hudson Yards",true,false
+249,"West Village",true,false
+261,"World Trade Center",true,false

@@ -1,0 +1,204 @@
+# Single source of truth for every metric in this product.
+#
+# components: additive building blocks, aggregated in the gold tables. The aggregate SQL is
+#             valid in both DuckDB and Spark SQL, so the laptop build and the Databricks
+#             notebook produce identical gold tables.
+# kpis:       ratios and totals built ONLY from components. Every delivery channel
+#             (Tableau, notebook, embedded app) computes KPIs from these formulas through
+#             metrics.py, so no channel re-implements the math.
+#
+# Silver-layer flags (is_valid_economics, is_valid_wait, ...) are defined in
+# sql/silver_trips.sql and documented in docs/data_quality_rules.md (DQ-01..DQ-08).
+
+components:
+  trips:                {sql: "count(*)", desc: "Completed trips (all, including DQ-flagged)"}
+  trips_valid_econ:     {sql: "count(*) filter (where is_valid_economics)", desc: "Trips that pass the economics rules (DQ-03, DQ-04)"}
+  base_fare_sum:        {sql: "coalesce(sum(base_passenger_fare) filter (where is_valid_economics), 0)", desc: "Base passenger fare, before tolls, taxes, fees and tips"}
+  driver_pay_sum:       {sql: "coalesce(sum(driver_pay) filter (where is_valid_economics), 0)", desc: "Driver pay excluding tips (TLC definition)"}
+  tips_sum:             {sql: "coalesce(sum(tips) filter (where is_valid_economics), 0)", desc: "Tips"}
+  rider_total_sum:      {sql: "coalesce(sum(rider_total) filter (where is_valid_economics), 0)", desc: "Everything the rider paid, tips included"}
+  trip_miles_sum:       {sql: "coalesce(sum(trip_miles) filter (where is_valid_economics), 0)", desc: "Trip miles"}
+  trip_seconds_sum:     {sql: "coalesce(sum(trip_seconds) filter (where is_valid_economics), 0)", desc: "Engaged (on-trip) seconds"}
+  wait_trips:           {sql: "count(*) filter (where is_valid_wait)", desc: "Trips with a valid request-to-pickup time (DQ-02)"}
+  wait_seconds_sum:     {sql: "coalesce(sum(wait_seconds) filter (where is_valid_wait), 0)", desc: "Request-to-pickup seconds"}
+  pickups_within_5min:  {sql: "count(*) filter (where is_valid_wait and wait_seconds <= 300)", desc: "Pickups within 5 minutes of request"}
+  shared_requests:      {sql: "count(*) filter (where is_shared_request)", desc: "Trips where the rider asked to share"}
+  shared_matches:       {sql: "count(*) filter (where is_shared_request and is_shared_match)", desc: "Shared requests that were matched"}
+  wav_requests:         {sql: "count(*) filter (where is_wav_request)", desc: "Wheelchair-accessible vehicle requests"}
+  wav_matches:          {sql: "count(*) filter (where is_wav_request and is_wav_match)", desc: "WAV requests served by a WAV"}
+  cbd_fee_sum:          {sql: "coalesce(sum(cbd_congestion_fee), 0)", desc: "Congestion relief zone fee collected (from 5 Jan 2025)"}
+  cbd_fee_trips:        {sql: "count(*) filter (where cbd_congestion_fee > 0)", desc: "Trips charged the congestion relief zone fee"}
+  crz_trips:            {sql: "count(*) filter (where touches_crz)", desc: "Trips starting or ending in the congestion relief zone"}
+  airport_trips:        {sql: "count(*) filter (where is_airport_trip)", desc: "Trips starting or ending at JFK, LGA or EWR"}
+
+kpis:
+  # ---------------------------------------------------------------- output metrics
+  - name: trips
+    label: Trips
+    level: output
+    type: total
+    expr: trips
+    format: int
+    owner: GM, NYC Market
+    definition: Completed trips. Includes trips flagged by data-quality rules, so totals match TLC's published counts.
+
+  - name: gross_bookings
+    label: Gross Bookings
+    level: output
+    type: total
+    expr: rider_total_sum - tips_sum
+    format: usd
+    owner: Finance, NYC Market
+    definition: Everything riders paid except tips (fare, tolls, taxes, surcharges, airport and congestion fees).
+
+  - name: platform_margin
+    label: Platform Margin (fare - driver pay)
+    level: output
+    type: total
+    expr: base_fare_sum - driver_pay_sum
+    format: usd
+    owner: Finance, NYC Market
+    definition: Base fare minus driver pay. Tolls, taxes and fees are pass-through and excluded. A proxy for platform revenue.
+
+  - name: market_share
+    label: Market Share (trips)
+    level: output
+    type: share_of_total
+    expr: trips
+    share_across: company
+    format: pct
+    owner: GM, NYC Market
+    definition: The company's share of all Uber + Lyft trips in the same slice (period, zone).
+
+  # ---------------------------------------------------------------- input metrics: price
+  - name: avg_fare
+    label: Average Base Fare
+    level: input
+    type: ratio
+    numerator: base_fare_sum
+    denominator: trips_valid_econ
+    format: usd2
+    owner: Pricing
+    definition: Base passenger fare per trip.
+
+  - name: fare_per_mile
+    label: Fare per Mile
+    level: input
+    type: ratio
+    numerator: base_fare_sum
+    denominator: trip_miles_sum
+    format: usd2
+    owner: Pricing
+    definition: Base fare divided by trip miles.
+
+  - name: avg_trip_miles
+    label: Average Trip Miles
+    level: input
+    type: ratio
+    numerator: trip_miles_sum
+    denominator: trips_valid_econ
+    format: dec2
+    owner: Pricing
+    definition: Miles per trip.
+
+  - name: take_rate
+    label: Take Rate
+    level: input
+    type: ratio
+    numerator: base_fare_sum - driver_pay_sum
+    denominator: base_fare_sum
+    format: pct
+    owner: Finance, NYC Market
+    definition: Share of the base fare the platform keeps after driver pay. Can be negative where incentives push driver pay above fare (DQ-05).
+
+  # ---------------------------------------------------------------- input metrics: service quality
+  - name: avg_wait_min
+    label: Average Wait (min)
+    level: input
+    type: ratio
+    numerator: wait_seconds_sum / 60
+    denominator: wait_trips
+    format: dec2
+    owner: Marketplace Ops
+    definition: Minutes from ride request to pickup. Excludes impossible or extreme waits (DQ-02).
+
+  - name: pickup_within_5min_rate
+    label: Picked Up Within 5 Min
+    level: input
+    type: ratio
+    numerator: pickups_within_5min
+    denominator: wait_trips
+    format: pct
+    owner: Marketplace Ops
+    definition: Share of riders picked up within 5 minutes of requesting. Chosen over median wait because it is additive and so stays correct at any grain, in every tool.
+
+  - name: shared_match_rate
+    label: Shared Ride Match Rate
+    level: input
+    type: ratio
+    numerator: shared_matches
+    denominator: shared_requests
+    format: pct
+    owner: Marketplace Ops
+    definition: Share of shared-ride requests matched with another rider.
+
+  - name: wav_fulfillment_rate
+    label: WAV Fulfillment Rate
+    level: input
+    type: ratio
+    numerator: wav_matches
+    denominator: wav_requests
+    format: pct
+    owner: Accessibility Program
+    definition: Share of wheelchair-accessible vehicle requests served by a WAV.
+
+  # ---------------------------------------------------------------- input metrics: supply
+  - name: driver_earnings_per_engaged_hour
+    label: Driver Earnings per Engaged Hour
+    level: input
+    type: ratio
+    numerator: driver_pay_sum + tips_sum
+    denominator: trip_seconds_sum / 3600
+    format: usd2
+    owner: Driver Experience
+    definition: Driver pay plus tips per hour on trip. Engaged time only, because the data has no idle or en-route time.
+
+  - name: tip_rate
+    label: Tip Rate
+    level: input
+    type: ratio
+    numerator: tips_sum
+    denominator: base_fare_sum
+    format: pct
+    owner: Driver Experience
+    definition: Tips as a share of base fare.
+
+  # ---------------------------------------------------------------- mix + policy
+  - name: crz_trip_share
+    label: Congestion-Zone Trip Share
+    level: input
+    type: ratio
+    numerator: crz_trips
+    denominator: trips
+    format: pct
+    owner: Policy & Strategy
+    definition: Share of trips starting or ending in the Manhattan congestion relief zone (south of 60th St).
+
+  - name: airport_trip_share
+    label: Airport Trip Share
+    level: input
+    type: ratio
+    numerator: airport_trips
+    denominator: trips
+    format: pct
+    owner: Pricing
+    definition: Share of trips starting or ending at JFK, LaGuardia or Newark.
+
+  - name: cbd_fee_revenue
+    label: Congestion Fee Collected
+    level: output
+    type: total
+    expr: cbd_fee_sum
+    format: usd
+    owner: Policy & Strategy
+    definition: Congestion relief zone fees collected from riders and passed to the MTA (from 5 Jan 2025).

@@ -1,0 +1,18 @@
+# data is regenerated from the public TLC source (scripts/00 + 01); far too large for git
+data/raw/
+data/silver*/
+data/sample/
+data/*.duckdb
+data/*.duckdb.wal
+data/app_actions/
+data/exports_sample/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+_to_delete/
+# large regenerated exports (over GitHub's file limits); rebuild with scripts/01_build_warehouse.py
+data/exports/hourly_zone_company.parquet
+data/exports/daily_zone_company.csv
+data/exports/zone_hour_anomalies.csv
+_cleanup/
