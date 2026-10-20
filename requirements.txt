@@ -9,3 +9,4 @@ ipykernel>=6.29
 nbformat>=5.10
 # optional, for running notebooks/05_databricks_pyspark.ipynb locally instead of on Databricks:
 # pyspark>=3.5
+kaleido>=1.0          # saves static PNG copies of charts so they show on GitHub
